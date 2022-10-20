@@ -236,6 +236,7 @@ hr {
   margin: 20px 0;
 }
 .w3-image {
+  min-width: 100%;
   max-width: 100%;
   height: auto;
 }
@@ -478,7 +479,7 @@ a {
 }
 .w3-bar .w3-bar-item {
   padding: 8px 16px;
-  float: left;
+  float: right;
   width: auto;
   border: none;
   display: block;
@@ -1207,7 +1208,7 @@ a {
   float: left !important;
 }
 .w3-right {
-  float: right !important;
+  float: left !important;
 }
 .w3-button:hover {
   color: #000 !important;
