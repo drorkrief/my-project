@@ -155,7 +155,8 @@
           ניתן ליצור איתנו קשר גם בטלפון 058-6866770 או במייל
           dror1krief@gmail.com, או לשלוח לנו הודעה כאן:
         </p>
-        <form action="/action_page.php" target="_blank">
+        <!-- action="/action_page.php" -->
+        <form onsubmit="return submitButton(event)" >
           <p>
             <input
               class="w3-input w3-padding-16"
@@ -217,5 +218,11 @@
         >
       </p>
     </footer>
+    <script>
+      function submitButton(e) {
+        e.preventDefault();
+        alert('האתר בבניה. \nההודעה לא נשלחה')
+      }
+    </script>
   </body>
 </html>
